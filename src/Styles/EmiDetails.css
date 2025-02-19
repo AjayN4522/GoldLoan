@@ -1,0 +1,20 @@
+
+.tableHeading{
+    font-size:var(--mfont);
+}
+
+.tableData{
+    font-size: var(--smfont);
+    font-weight: 600;
+    color: var(--primary-color) !important;
+}
+
+.tableAgentName{
+    color: var(--secondary-color) !important;
+    font-weight: 600;
+}
+
+.upComingEmiTable:hover{
+    transform: translateY(-2px);
+    border: 2px solid var(--tertiary-color);
+}

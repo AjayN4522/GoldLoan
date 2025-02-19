@@ -1,0 +1,40 @@
+.DashBoardMain{
+    height: 90vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.DashBoardDetailsPage{
+    display: flex;
+}
+.DashBoard-Content{
+    width: 83%;
+}
+.divider{
+    background-color: var(--lwhite);
+    width: 99.9%;
+    height: 1px;    
+    border: 1px solid var(--lwhite);
+}
+
+
+.DashBoardFirst{
+    display: flex;
+    flex-direction: column;
+}
+.pieChart{
+    width: 600px;
+    height: 400px;
+}
+
+@media screen and (max-width:1280px ) {
+    .DashBoardMain {
+      width: 100vw !important;
+    }
+    .divider{
+        width: 99.9vw !important;
+    }
+  }
+
+  

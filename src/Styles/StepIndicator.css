@@ -1,0 +1,107 @@
+.Steps-Left{
+  height: auto;
+  min-height: 100vh;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Steps-Label-Head{
+  padding: 30px 0;
+}
+
+.Steps-Label-Head >p {
+  margin: 0;
+  font-weight: 700;
+  padding: 5px 0;
+}
+.Steps-Label-sm{
+  text-align: center;
+}
+.Steps-Label{
+  color: var(--secondary-color);
+  font-size: var(--xxlfont);
+}
+.step-indicator-main{
+  display: flex;
+}
+.step-indicator {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+}
+.step-indicator-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:85%;
+  margin: 30px 0 ;
+} 
+.step-indicator-1 p{
+  padding: 0 10px;
+}
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  .step-number {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    color: var(--primary-color);
+    font-weight: 600;
+    border:2px solid var(--primary-color);
+    border-radius: 50%;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+.step.active .step-number {
+    background: var(--primary-color);
+    color: var(--white);
+    font-weight: 600;
+}
+  
+.step.completed .step-number {
+  background: var(--lsuccess);
+  color: var(--success);
+  font-weight: 600;
+  border:2px solid var(--success);
+}
+.steps{
+  color: var(--lwhite);
+  font-weight: 600;
+}
+
+.steps.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.steps.completed {
+color: var(--success);
+font-weight: 600;
+}
+  
+.step-line {
+  width: 2px;
+  height: 50px;
+  background: var(--lwhite);
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+  
+.step.completed .step-line {
+  background:  var(--success);
+}
+.stepwithlabel{
+  display: flex;
+}

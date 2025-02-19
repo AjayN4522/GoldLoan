@@ -1,0 +1,478 @@
+
+.LoanDetailsPage{
+    display: flex;
+    height: 100vh;
+}
+.divider{
+    background-color: var(--lwhite);
+    width: 99.9%;
+    height: 1px;
+    border: 1px solid var(--lwhite);
+}
+
+.Loan-Content{
+    width: 83%;
+}
+
+.RenewalDetailsMain{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.RenewalDetails-Left{
+    width: 70%;
+    height: auto;
+    margin: 10px 0;
+}
+.RenewalDetailsRight{
+    width: 25%;
+    height: auto;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    margin: 10px;
+}
+.RenewalDetails-Left-Header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Renewal-SearchMain{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.Renewal-SearchBox{
+    width: 200px;
+    height: 40px;
+    border: 2px solid var(--lwhite);
+    padding: 0 6px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.1);
+    outline: none;
+    font-size: var(--mfont);
+    font-weight: 500;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+}
+.Renewal-SearchIcon{
+    width: 40px;
+    height: 42px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 15px;
+    margin: 0 5px;
+}
+.Add-Renewal-Btn{
+    height: 40px;
+    width: auto;
+    padding: 3px 10px;
+    background-color: var(--primary-color);
+    border-radius: 10px;   
+    font-size: var(--mfont);
+    font-weight: 600;
+    border: none;
+    color: var(--white);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.Add-Renewal-Btn:hover{
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    transform: translateY(-3px);
+}
+.bi-search{
+    font-size: 15px;
+    color: var(--white);
+}
+.bi-plus{
+    font-size: 25px;
+    padding-left:10px;
+}
+.RenewalDetails-Group{
+    margin:0 10px;
+    height: 85%;
+    background-color: var(--white);
+    border: none;
+    border-radius: 15px;
+}
+.Renewal-List{
+    display: flex;
+    width: 100%;
+    background-color: var(--white);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.1);
+    margin: 3px;
+}
+.Renewal-List:hover{
+    transform: translateY(-2px);
+    border: 2px solid var(--tertiary-color);
+}
+.List-Id,.List-name{
+    width: 10%;
+    padding: 0 10px;
+}
+.List-name{
+    font-size: var(--mfont);
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+.List-approveddate,.List-pending{
+    font-size: var(--mfont);
+    color: var(--primary-color);
+    font-weight: 500;
+    margin: 0 20px;
+}
+.List-pending{
+    width: 20%;
+    text-align: start;
+}
+.Renewal-List-PayIcon{
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    color: var(--white);
+    margin: 0 5px;
+}
+.Renewal-List-CloseIcon{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    color: var(--white);
+    margin: 0 5px;
+}
+.Renewal-List-CloseBtns{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 80px;
+
+}
+.RenewalDetailsRight-Group{
+    height: auto;
+}
+.RenewalDetailsRight-Header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.Renewal-Name-Label{
+    font-size: var(-lgfont);
+    font-weight: 700;
+    margin: 0;
+}
+.RenewalDetailsRight-Info{
+    margin: 30px 5px;
+}
+.RenewalPaymentLabel{
+    padding: 0 5px;
+}
+.Renewal-Info-Label{
+    font-size: var(--mfont);
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 10px;
+}
+.Details-Group{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.Details-Label{
+    font-size: var(--mfont);
+    margin: 0;
+    font-weight: 500;
+    color: black;
+    opacity: 0.5;
+}
+.Details-Info{
+    font-size: var(--mfont);
+    margin: 0;
+    font-weight: 600;
+    color: black;
+}
+.RenewalDetailsRight-Footer{
+    padding: 10px;
+}
+.Renewal-Pay{
+    padding: 10px 20px;
+    background-color: var(--lwarning);
+    border: 2px solid var(--warning);
+    border-radius: 8px;
+    color: var(--warning);
+    font-size: var(--mfont);
+    font-weight: 600;
+    border-radius: 20px;
+    width: 40%;
+}
+.Renewal-Close{
+    padding: 10px 20px;
+    background-color: var(--lfailed);
+    border: 2px solid var(--failed);
+    border-radius: 8px;
+    color: var(--failed);
+    font-size: var(--mfont);
+    font-weight: 600;
+    border-radius: 20px;
+    width: 40%;
+}
+.RenewalPaymentFormDiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment-inputs{
+    width: 45%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+    margin: 5px 0;
+    background-color: var(--tertiary-color);
+    outline: none;
+}
+.RenewalPaymentLabel,.PaymentHistoryLabel{
+    font-weight: 600;
+    margin: 0;
+}
+.Renewal-List-CloseIcon{
+    outline: none;
+}
+.RenewalPaymentPayBtn{
+    padding: 5px 15px;
+    background-color: var(--success);
+    border: 2px solid var(--success);
+    border-radius: 8px;
+    color: var(--white);
+    font-size: var(--mfont);
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 5px 40%
+}
+.NullRenewals{
+    text-align: center;
+    font-size: var(-lgfont);
+    font-weight: 600;
+}
+.ELink{
+    color: var(--warning);
+}
+.DLink{
+    color: var(--failed);
+}
+
+.RenewalContainers{
+    padding: 5px;
+}
+.RenewalContainerLable{
+    font-size: var(--lgfont);
+    color: var(--primary-color);
+    font-weight: 600;
+    margin: 5px 0;
+}
+.RenewalCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+.RenewalCardDiv{
+    width: 30%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.RenewalCardDivSec{
+    margin-top: 10px;
+    width: 80%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;   
+}
+.RenewalCardDiv1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.RenewalCardLable{
+    font-size: var(--smfont);
+    font-weight: 600;
+    color: black;
+    opacity: 0.6;
+    padding: 0 5px;
+}
+.RenewalInput{
+    height: 35px;
+    background-color: var(--tertiary-color);
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid var(--lwhite);
+    padding: 0 5px;
+    width: 15%;
+    min-width: 100px;
+}
+.RenewalInputs{
+    width: 100%;
+    height: 35px;
+    background-color: var(--tertiary-color);
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid var(--lwhite);
+    padding: 0 5px;
+}
+
+.RenewalSubmitButton{
+    width: 100px;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: var(-lgfont);
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.2);
+    border: 2px solid var(--white);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.RenewalSubmitButton:hover{
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 15px 20px var(--primary-color);
+    transform: translateY(-7px);
+}
+
+
+.RenewalRangeSlider {
+    width: 100%;
+    appearance: none;
+    height: 8px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    background: #ddd;
+}
+
+.RenewalRangeSlider::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.RenewalSliderLabels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.RenewalSliderLabel {
+    font-size: 12px;
+    text-align: center;
+}
+.open-modal-btn{
+    position:absolute;
+    right: 0;
+    top: 90%;
+    padding: 10px;
+    margin: 20px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+.cal-icon{
+    color: var(--white);
+}
+@media only screen and (max-width: 1300px) {
+    .Loan-Content{
+        width: 100%;
+    }
+   
+}
+
+@media only screen and (max-width: 1100px) {
+    .List-name{
+        display: none;
+    }
+    .RenewalDetails-Left{
+        width: 65%;
+    }
+    .RenewalDetailsRight{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .List-approveddate{
+        display: none;
+    }
+    .RenewalDetails-Left{
+        width: 60%;
+    }
+    .RenewalDetailsRight{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .RenewalDetailsMain{
+        flex-wrap: wrap;
+    }
+    .RenewalDetails-Left{
+        width: 100%;
+        margin: 0 20px;
+        height: auto;
+    }
+    .RenewalDetailsRight{
+        width: 100%;
+        margin: 0 20px;
+    }
+    .RenewalDetails-Group{
+        margin:0 5px;
+        height: 75%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .List-Id,.List-name,.List-approveddate,.List-pending{
+        font-size: var(--smfont);
+        width: 20%;
+    }
+    .Renewal-List-PayIcon,.closure-list{
+        font-size: var(--smfont);
+    }
+    .Renewal-List-PayIcon{
+        display: none;
+    }
+}

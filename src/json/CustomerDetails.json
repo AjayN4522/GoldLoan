@@ -1,0 +1,124 @@
+[
+  {
+    "first_name": "Arun",
+    "last_name": "Kumar",
+    "date_of_birth": "1990-05-15",
+    "phone_number": "9441234567",
+    "email": "arun.kumar@example.in",
+    "id_card_type": "aadhar",
+    "id_card_number": "1234-5678-9012",
+    "goldLoans": [
+      { "loanId": "GL001", "amount": 50000, "status": "Active" },
+      { "loanId": "GL002", "amount": 30000, "status": "Closed" }
+    ]
+  },
+  {
+    "first_name": "Meena",
+    "last_name": "Ramesh",
+    "date_of_birth": "1988-11-23",
+    "phone_number": "9841234567",
+    "email": "meena.ramesh@example.in",
+    "id_card_type": "pan",
+    "id_card_number": "ABCDE1234F",
+    "goldLoans": [
+      { "loanId": "GL003", "amount": 75000, "status": "Active" }
+    ]
+  },
+  {
+    "first_name": "Karthik",
+    "last_name": "Raj",
+    "date_of_birth": "1995-07-30",
+    "phone_number": "9951234567",
+    "email": "karthik.raj@example.in",
+    "id_card_type": "passport",
+    "id_card_number": "M1234567",
+    "goldLoans": []
+  },
+  {
+    "first_name": "Priya",
+    "last_name": "Suresh",
+    "date_of_birth": "1992-03-10",
+    "phone_number": "9945678901",
+    "email": "priya.suresh@example.in",
+    "id_card_type": "voter",
+    "id_card_number": "XYZ1234567",
+    "goldLoans": [
+      { "loanId": "GL004", "amount": 40000, "status": "Defaulted" },
+      { "loanId": "GL005", "amount": 60000, "status": "Active" },
+      { "loanId": "GL006", "amount": 25000, "status": "Closed" }
+    ]
+  },
+  {
+    "first_name": "Vikram",
+    "last_name": "Anand",
+    "date_of_birth": "1985-09-17",
+    "phone_number": "9846789012",
+    "email": "vikram.anand@example.in",
+    "id_card_type": "aadhar",
+    "id_card_number": "5678-9012-3456",
+    "goldLoans": [
+      { "loanId": "GL007", "amount": 100000, "status": "Active" }
+    ]
+  },
+  {
+    "first_name": "Divya",
+    "last_name": "Subramani",
+    "date_of_birth": "1993-06-05",
+    "phone_number": "9844567890",
+    "email": "divya.subramani@example.in",
+    "id_card_type": "pan",
+    "id_card_number": "FGHIJ5678K",
+    "goldLoans": [
+      { "loanId": "GL008", "amount": 55000, "status": "Closed" },
+      { "loanId": "GL009", "amount": 70000, "status": "Active" }
+    ]
+  },
+  {
+    "first_name": "Rajesh",
+    "last_name": "Natarajan",
+    "date_of_birth": "1989-01-21",
+    "phone_number": "9949876543",
+    "email": "rajesh.natarajan@example.in",
+    "id_card_type": "passport",
+    "id_card_number": "N9876543",
+    "goldLoans": []
+  },
+  {
+    "first_name": "Sowmya",
+    "last_name": "Iyer",
+    "date_of_birth": "1997-12-19",
+    "phone_number": "9947654321",
+    "email": "sowmya.iyer@example.in",
+    "id_card_type": "voter",
+    "id_card_number": "LMN8901234",
+    "goldLoans": [
+      { "loanId": "GL010", "amount": 30000, "status": "Defaulted" },
+      { "loanId": "GL011", "amount": 45000, "status": "Active" }
+    ]
+  },
+  {
+    "first_name": "Manoj",
+    "last_name": "Krishnan",
+    "date_of_birth": "1991-08-12",
+    "phone_number": "9944567890",
+    "email": "manoj.krishnan@example.in",
+    "id_card_type": "aadhar",
+    "id_card_number": "3456-7890-1234",
+    "goldLoans": [
+      { "loanId": "GL012", "amount": 80000, "status": "Closed" }
+    ]
+  },
+  {
+    "first_name": "Anitha",
+    "last_name": "Balaji",
+    "date_of_birth": "1994-02-28",
+    "phone_number": "9841234567",
+    "email": "anitha.balaji@example.in",
+    "id_card_type": "pan",
+    "id_card_number": "KLMNO6789P",
+    "goldLoans": [
+      { "loanId": "GL013", "amount": 60000, "status": "Active" },
+      { "loanId": "GL014", "amount": 20000, "status": "Defaulted" }
+    ]
+  }
+]

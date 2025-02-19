@@ -1,0 +1,72 @@
+:root{
+  --font: poppins;
+  --xxlfont : 26px;
+  --xlfont : 22px;
+  --lgfont : 18px;
+  --mfont : 14px;
+  --smfont : 12px;
+  --background-color : #211951;
+  --lwhite : #c3c3c3;
+  --white : #ffffff;
+  --primary-color : #836FFF;
+  --secondary-color : #FF9A00;
+  --tertiary-color :#EEF5FF;
+
+  --warning:#FF8E62;
+  --lwarning:#F6D3BB;
+  --success: #59C147;
+  --lsuccess: #D2FFDC;
+  --failed:#FB4141;
+  --lfailed:#FFAAAA;
+}
+*{
+  font-family: var(--font);
+}
+* {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: var(--lwhite) white; /* Thumb and track colors for Firefox */
+}
+
+
+
+*::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  height: 12px; /* Height for horizontal scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #f4f4f4; /* Track color */
+  border-radius: 10px; /* Rounded corners for track */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, var(--lwhite), black); /* Gradient color */
+  border-radius: 10px; /* Rounded scrollbar handle */
+  border: 2px solid #f4f4f4; /* Space between thumb and track */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, black, var(--lwhite)); /* Hover effect */
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100dvw;
+  font-family: var(--font);
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Hides spinners in Firefox */
+}
+
+
+

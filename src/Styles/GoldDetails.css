@@ -1,0 +1,251 @@
+.gold-details-form{
+    width: 100%;
+    height: 100%;
+}
+
+.gold-details-main{
+    width: 95%;
+    margin: 20px;
+    border: 2px solid var(--lwhite);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.gold-details-cards{
+    height: 100%;
+    margin: 2px;
+    padding-bottom:5px ;
+    border-radius: 15px;
+    border: 2px solid var(--tertiary-color);
+    background-color: var(--tertiary-color);
+    display: flex;
+}
+.gold-details-card-items-1{
+    width: 60%;
+    margin: 0 auto;
+    height: 100%;
+}
+.gold-details-card-items-2{
+    width: 35%;
+    border-radius: 15px;
+    height: 100%;
+}
+.gold-select{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.gold-type{
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid var(--lwhite);
+    background-color: var(--white);
+    padding: 3px 6px;
+    color: var(--primary-color);
+    font-size: var(--mfont);
+    font-weight: 600;
+    outline: none;
+}
+.gold-purity{
+    width: 80px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 1px solid var(--lwhite);
+    background-color: var(--white);
+    padding: 3px 6px;
+    color: var(--primary-color);
+    font-size: var(--mfont);
+    font-weight: 600;
+    outline: none;
+}
+.gold-details-inputs{
+    min-height: 40px;
+    min-width: 150px;
+    border-radius: 10px;
+    border: 1px solid var(--lwhite);
+    background-color: var(--white);
+    padding:0 6px;
+    color: var(--primary-color);
+    font-size: var(--mfont);
+    font-weight: 600;
+    outline: none;
+}
+.gold-details-comments{
+    width: 95%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid var(--lwhite);
+    background-color: var(--white);
+    padding:0 6px;
+    color: var(--primary-color);
+    font-size: var(--mfont);
+    font-weight: 600;
+    outline: none;
+}
+.gold-photo-inputs{
+    outline: none;
+    border: none;
+}
+.gold-detail-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.gold-detail-footer-lables{
+    margin: 0;
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+.gold-values{
+    margin: 0;
+    padding: 10px 0;
+    color: black !important;
+    font-weight: 700;
+}
+.gold-add-btn{
+    position: sticky;
+    bottom: 0;
+}
+.add-gold{
+    margin: 0;
+    text-align: center;
+    font-size: var(--mfont);
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 20px;
+    padding: 10px 0;
+}
+.add-gold-icon{
+    font-size: var(--lfont) !important;
+    font-weight: 900 !important;
+    
+}
+
+.custom-toggle {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 120px;
+    height: 35px;
+    overflow: hidden;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid var(--lwhite);
+  }
+  
+  .toggle-option {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffa500; /* Orange for the text */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .toggle-option.active {
+    background-color: #ffa500; /* Orange for the active background */
+    color: white; /* White text for the active option */
+  }
+  .file-upload-icon{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 10px;
+  }
+  .photo-input{
+    display: none;
+  }
+  .photo-upload-grp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.gold-photo{
+    width: 100%;
+    margin: 2px;
+    border-radius: 10px;
+    height: 150px;
+}
+.gold-grp-buttons{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.add-gold-button,.refresh-gold-button,.done-gold-button{
+    padding:10px 15px;
+    margin: 0 5px;
+    border-radius:15px ;
+}
+.edit-gold-button,.delete-gold-button{
+    padding:5px 10px;
+    margin: 0 5px;
+    border-radius:10px ;   
+}
+.edit-gold-button{
+    color: var(--warning);
+    border: 2px solid var(--warning);
+    background-color: var(--lwarning);
+}
+.delete-gold-button{
+    color: var(--failed);
+    border: 2px solid var(--failed);
+    background-color: var(--lfailed);
+}
+.add-gold-button{
+    color: var(--white);
+    border: 2px solid var(--white);
+    background-color: var(--primary-color);
+}
+.refresh-gold-button{
+    color: var(--failed);
+    border: 2px solid var(--failed);
+    background-color: var(--lfailed);
+}
+.done-gold-button{
+    color: var(--success);
+    border: 2px solid var(--success);
+    background-color: var(--lsuccess);
+}
+.gold-details-list{
+    margin: 10px 20px;
+    position: relative;
+    width: 100%;
+    height: 160px;
+    overflow-x: scroll;
+    display: flex;
+    padding: 5px;
+}
+.gold-details-card{
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+.gold-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.gold-edit-grp-buttons{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: end;
+}
