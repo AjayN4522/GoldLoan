@@ -1,0 +1,39 @@
+
+  
+  .card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+    min-height: 100px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  
+  
+  /* Gradient Backgrounds */
+  .purple {
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  }
+  
+  .blue {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+  }
+  
+  .red {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  }
+  
+  .orange {
+    background: linear-gradient(135deg, #ff9a9e, #fbc2eb);
+  }
+  
+  /* Typography */
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+ 

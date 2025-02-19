@@ -1,0 +1,761 @@
+
+.CustomerDetailsPage{
+    display: flex;
+}
+.divider{
+    background-color: var(--lwhite);
+    width: 99.9%;
+    height: 1px;
+    border: 1px solid var(--lwhite);
+}
+.Customer-Content{
+    width: 83%;
+}
+.CustomerFormMain{
+    width:100dvw;
+    min-height: 100dvh;
+    height: auto;
+    display: flex;
+    background-color: var(--background-color);
+}
+.ProgressMain{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.CustomerFormHead{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.CustomerFormHead-1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CustomerFormHead-2{
+    width: 20%;
+    height: 200px;
+    margin: 10px 0;
+    padding: 5px;
+}
+.customer-photo{
+    width: 100%;
+    height: 150px;
+    border: 2px solid var(--lwhite);
+    border-radius: 20px;
+}
+.CustomerForm{
+    width: 80%;
+    background-color: var(--white);
+    height: 70vh;
+    overflow-y: scroll;
+}
+.CustomerFormLeft{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    justify-content: space-around;
+    border-right:2px solid var(--background-color) ;
+    border-radius: 0px 30px 30px 0;
+}
+.FormHeading{
+    color: var(--secondary-color);
+    margin: 20px 0 0 0 ;
+    font-size: var(--xxlfont);
+}
+.FormHeadLabel{
+    font-size: var(--lgfont);
+    color: var(--background-color);
+    font-weight: 600;
+    margin: 0 0 10px 0 ;
+}
+.FormHeadIcon{
+    width: 100px;
+    height: 80px;
+}
+.CustomerFormRight{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.GoldGrowth{
+    width: 90%;
+
+}
+.CustomerForm-3,.CustomerForm-1,.CustomerForm-2,.CustomerForm-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CustomerForm-2{
+   margin: 10px 25px;
+}
+.CustomerForm-4{
+   margin: 10px 25px; 
+}
+.feilds-with-err{
+    display: flex;
+    justify-content: space-between;
+}
+.error-feild{
+    border: 2px solid var(--failed) !important;
+}
+.error-message{
+    font-size: var(--smfont);
+    color: var(--failed);
+    margin: 0;
+}
+.full-Fields{
+    max-width: 100%;
+    position: relative;
+    margin: 15px 25px 0 25px;
+
+}
+.Fields{
+    width: 100%;
+    margin: 15px 25px 0 25px;
+    position: relative;
+}
+
+.photoFields{
+    width: 100%;
+    margin: 15px 25px 0 25px;
+    position: relative;
+}
+
+.SelectFields{
+    max-width: 100%;
+    margin: 15px 25px 0 25px;
+}
+.Labels{
+    font-size: var(--mfont);
+    font-weight: 600;
+}
+.InputsText{
+    width: 100%;
+    height: 35px !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--lwhite);
+    background-color: var(--tertiary-color);
+    padding: 3px 6px;
+    color: var(--primary-color);
+    font-size: var(--mfont);
+    font-weight: 600;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.1);
+    outline: none;
+}
+
+.InputsText:focus{
+    height: 38px !important;
+    border: 2px solid var(--primary-color);
+    transition: all 0.1s ease-in-out 0s;
+
+}
+.InputsText:hover{
+    height: 38px !important;
+    border: 2px solid var(--primary-color);
+    transition: all 0.1s ease 0s;
+}
+.InputsText1{
+    width: 100%;
+    height: 35px !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--lwhite);
+    padding: 3px 6px;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    font-size: var(--mfont);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.1);
+    outline: none;
+}
+.InputsText1:focus{
+    height: 38px !important;
+    border: 2px solid var(--primary-color);
+    transition: all 0.1s ease-in-out 0s;
+
+}
+.InputsText1:hover{
+    height: 38px !important;
+    border: 2px solid var(--primary-color);
+    transition: all 0.1s ease 0s;
+}
+.PhotoInputs{
+    width: 100% ;
+    height: 35px;
+    padding: 3px 6px;
+    font-size: var(--mfont);
+    background-color: var(--tertiary-color);
+    font-weight: 600;
+    color: var(--primary-color);
+    border: none;
+    outline: none;
+}
+
+.Photo-Logo{
+    width: 10% !important;
+}
+.SelectBox{
+    width: 100%;
+    height: 45px !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--lwhite);
+    background-color: var(--tertiary-color);
+    padding: 3px 6px;
+    color: var(--primary-color);
+    font-size: var(--mfont);
+    font-weight: 600;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.1);
+    margin: 0 50px 0 0 !important;
+}
+.SelectBoxt:focus{
+    height: 48px !important;
+    border: 2px solid var(--primary-color);
+    transition: all 0.1s ease-in-out 0s;
+
+}
+.SelectBox:hover{
+    height: 48px !important;
+    border: 2px solid var(--primary-color);
+    transition: all 0.1s ease 0s;
+}
+option{
+    width: 100%;
+    height: 35px;
+    font-size: var(--mfont);
+    font-weight: 400;
+    background-color: var(--tertiary-color);
+    padding: 3px 5px;
+    border-radius: 10px;
+    color: black;
+}
+ 
+.SubmitButton{
+    width: 100px;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: var(-lgfont);
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.2);
+    border: 2px solid var(--white);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.SubmitButton:hover{
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 15px 20px var(--primary-color);
+    transform: translateY(-7px);
+}
+
+.FooterButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BackButton{
+    width: 100px;
+    padding: 10px ;
+    font-weight: 600;
+    font-size: var(-lgfont);
+    background-color: var(--white);
+    color: var(--primary-color);
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.2);
+    border: 2px solid var(--primary-color);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.BackButton:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 2px solid var(--primary-color);
+    transform: translateY(-7px);
+}
+
+/* Apply red border when there's an error 
+.error-input {
+    max-width: 100%;
+    height: 35px !important;
+    border-radius: 10px !important;
+    border: 2px solid red;
+    padding: 3px 6px;
+    font-size: var(--mfont);
+    font-weight: 600;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.1);
+    outline: none;
+}
+
+.error-message {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    position: relative;
+    font-size: var(--smfont);
+    font-weight: 500;
+}
+    */
+
+/* ============================================================================================== */
+
+
+@media only screen and (max-width: 1300px) {
+    .Customer-Content{
+        width: 100%;
+        height: 100dvh ;
+    }
+}
+
+
+@media only screen and (max-width: 950px) {
+    .multi-step-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .CustomerDetails-Left{
+        width: 65% !important;
+    }
+    .CustomerDetailsRight{
+        width: 35% !important;
+    }
+    .List-email{
+        display: none;
+    }
+    .List-cname{
+        width: 40% !important;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .CustomerDetailsMain{
+        flex-direction: column;
+    }
+    .CustomerDetails-Left{
+        width: 100% !important;
+        height: 60% !important;
+    }
+    .CustomerDetails-Group{
+        height: 60% !important;
+    }
+    .CustomerDetailsRight{
+        width: 96% !important;
+        margin: 20px auto;
+    }
+    .List-email{
+        display: none;
+    }
+    .List-cname{
+        width: 40% !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .CustomerDetails-Left-Header{
+        display: flex;
+        flex-direction: column;
+    }
+    .List-Id,.List-name,.List-approveddate,.List-pending{
+        font-size: var(--smfont);
+        width: 20%;
+    }
+    .Loan-List-PayIcon,.closure-list{
+        font-size: var(--smfont);
+    }
+    .Loan-List-PayIcon{
+        display: none;
+    }
+}
+
+/* ============================================================================================== */
+
+@media (max-width: 576px) {
+    .CustomerFormRight{
+        display: none;
+    }
+    .CustomerFormLeft{
+        width: 100%;
+        border-radius: 0;
+    }
+  }
+  
+  /* Tablets */
+  @media (min-width: 577px) and (max-width: 1080px) {
+    .CustomerFormRight{
+        display: none;
+    }
+    .CustomerFormLeft{
+        width: 100%;
+        border-radius: 0;
+    }
+  }
+  
+@media only screen and (max-width: 1080px) {
+    .customerPhoto{
+        right:17% !important;
+    }
+}
+  @media only screen and (max-width: 750px) {
+    .CustomerForm-1,.CustomerForm-2,.CustomerForm-3,.CustomerForm-4{
+        flex-wrap: wrap;
+    }
+    .FormHeading{
+        font-size: var(--lgfont);
+    }
+    .FormHeadIcon{
+        display: none;
+    }
+    .FormHeading{
+        width: 50%;
+    }
+    .CustomerFormHead-2{
+        width: 50%;
+    }
+    .customerPhoto{
+        right:25% !important;
+    }
+  }
+
+/* ================================================================================================= */
+
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-10%);
+    color: var(--primary-color);
+    font-size: 20px;
+    padding: auto;
+    pointer-events: none; 
+}
+
+.CustomerDetailsMain{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+.CustomerDetails-Left{
+    border: 1px solid var(--lwhite);
+    border-radius: 20px;
+    width: 70%;
+    height: 100%;
+    margin: 10px 0;
+}
+.CustomerDetailsRight{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+}
+.CustomerDetails-Left-Header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Customer-SearchMain{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.Customer-SearchBox{
+    width: 200px;
+    height: 40px;
+    border: 2px solid var(--lwhite);
+    padding: 0 6px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.1);
+    outline: none;
+    font-size: var(--mfont);
+    font-weight: 500;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+}
+.Customer-SearchIcon{
+    width: 40px;
+    height: 42px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 15px;
+    margin: 0 5px;
+}
+.Add-Customer-Btn{
+    height: 40px;
+    width: auto;
+    padding: 3px 10px;
+    background-color: var(--primary-color);
+    border-radius: 10px;   
+    font-size: var(--mfont);
+    font-weight: 600;
+    border: none;
+    color: var(--white);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.Add-Customer-Btn:hover{
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    transform: translateY(-3px);
+}
+.bi-search{
+    font-size: 15px;
+    color: var(--white);
+}
+.bi-plus{
+    font-size: 25px;
+    padding-left:10px;
+}
+.CustomerDetails-Group{
+    margin:0 10px;
+    height: 85%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    background-color: var(--tertiary-color);
+    border: none;
+    border-radius: 10px;
+}
+.Customer-List{
+    display: flex;
+    background-color: var(--white);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.1);
+    margin: 3px;
+}
+.Customer-List:hover{
+    transform: translateY(-2px);
+    border: 2px solid var(--tertiary-color);
+}
+.List-cname,.List-phone{
+    width: 20%;
+    padding: 0 10px;
+}
+.List-cname{
+    font-size: var(--mfont);
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+.List-phone,.List-email{
+    font-size: var(--mfont);
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.List-email{
+    width: 40%;
+    text-align: start;
+}
+.Customer-List-EditIcon{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: var(--white);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    color: var(--primary-color);
+    margin: 0 5px;
+}
+.Customer-List-DeleteIcon{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    color: var(--white);
+    margin: 0 5px;
+}
+.Customer-List-DeleteIcon:hover , .Customer-List-EditIcon:hover{
+    width: 35px;
+    height: 35px;
+    transition: all 0.3s ease 0.s;
+}
+
+.CustomerDetailsRight-Group{
+    height: 80%;
+}
+.CustomerDetailsRight-Header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.Customer-Photo{
+    width: 200px;
+    height: 100%;
+
+}
+.Customer-Name-Label{
+    font-size: var(-lgfont);
+    font-weight: 700;
+    margin: 0;
+}
+.CustomerDetailsRight-Info{
+    margin: 30px 10px;
+}
+.Customer-Info-Label{
+    font-size: var(--mfont);
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 10px;
+}
+.Details-Group{
+    padding: 10px;
+}
+.Details-Label{
+    font-size: var(--mfont);
+    margin: 0;
+    font-weight: 500;
+    color: black;
+    opacity: 0.5;
+}
+.Details-Info{
+    font-size: var(--mfont);
+    margin: 0;
+    font-weight: 600;
+    color: black;
+}
+.CustomerDetailsRight-Footer{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Customer-Edit{
+    padding: 10px 20px;
+    background-color: var(--lwarning);
+    border: 2px solid var(--warning);
+    border-radius: 8px;
+    color: var(--warning);
+    font-size: var(--mfont);
+    font-weight: 600;
+    border-radius: 20px;
+    width: 40%;
+}
+.Customer-Delete{
+    padding: 10px 20px;
+    background-color: var(--lfailed);
+    border: 2px solid var(--failed);
+    border-radius: 8px;
+    color: var(--failed);
+    font-size: var(--mfont);
+    font-weight: 600;
+    border-radius: 20px;
+    width: 40%;
+}
+.NullCustomers{
+    text-align: center;
+    font-size: var(-lgfont);
+    font-weight: 600;
+}
+.ELink{
+    color: var(--warning);
+}
+.DLink{
+    color: var(--failed);
+}
+.customerPhoto{
+    position: absolute;
+    right:50%;
+    top: 80px;
+    opacity: 0.5;
+    color: var(--primary-color);
+}
+
+
+.country-select-grp{
+    width: 200px;
+    height: 35px;
+    
+}
+.country-select{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    background-color: var(--tertiary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    height: 100%;
+    max-width: 150px;
+}
+.phone-number-label,.bi-caret-down-fill{
+    font-size: var(--smfont);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.bi-caret-down-fill{
+    font-size: var(--mfont) !important;  
+}
+
+.country-search-content{
+    max-height: 200px;
+    background-color: var(--tertiary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+.search-country{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    border-radius: 10px;
+    height: 40px;
+}
+.country-search-box{
+    padding: 0 5px;
+    background-color: var(--white);
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    height: 35px;
+    width: 100%;
+    outline: none;
+}
+.country-number{
+    overflow-y: scroll;
+    height: 140px;
+    margin: 0;
+    padding: 0 10px;
+    max-width: 150px;
+}
+.country-number-each{
+    list-style-type: none;
+    font-size: var(--mfont);
+    font-weight: 500;
+    color: var(--primary-color);
+    padding: 5px 0;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 0;
+    cursor: pointer;
+}
+.country-number-each:hover{
+    font-weight: 600;
+}

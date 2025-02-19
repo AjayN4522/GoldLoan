@@ -1,0 +1,214 @@
+.multi-step-form {
+  display: flex;
+  width: 100%;
+  background: var(--white);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+  
+.animation {
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+  
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+hr{
+  margin: 0;
+}  
+.form-panel {
+  width: 55%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.gold-document-upload-button{
+  width: 30px;
+  height: 30px;
+}
+  
+.form-navigation {
+  display: flex;
+  justify-content: end;
+  width: 90%;
+}
+  
+.gold-loan-right-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.loan-tenure-cal-container{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 20px;
+  width: 20%;
+  background-color: var(--tertiary-color);
+}
+.loan-tenure-cal-center-container{
+  width: 90%;
+}
+.loan-cal-labels,.loan-cal-val{
+  margin: 5px 0;
+}
+.loan-cal-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gold-loan-right-img{
+  width: 90%;
+}
+.filenamelabel{
+  width: 80%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .steps{
+      display: none;
+    }
+    .Steps-Label{
+      display:none ;
+    }
+    .Steps-Left{
+      width: 10%;
+    }
+    .form-panel {
+      width: 65%;
+    }
+    .DocDetailsRightSide{
+      width: 35%;
+    }
+}
+@media only screen and (max-width: 950px) {
+  .steps{
+    display: block;
+  }
+  .Steps-Label{
+    display:block ;
+  }
+  .multi-step-form{
+    display: flex;
+    flex-direction: column;
+  }
+  .gold-details-cards{
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .form-panel {
+    width:auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .gold-details-main{
+    margin: 10px 0;
+  }
+  .Steps-Left{
+    width: 100% !important;
+    height: 150px !important;
+    min-height: 150px !important;
+    flex-direction: row !important;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .form-panel {
+    width: 90%;
+  }
+  .DocDetailsRightSide,.gold-loan-right-container,.loan-tenure-cal-container,.CustomerDetailsRightSide{
+    width: 95%;
+  }
+  .customer-select-header{
+    flex-wrap: wrap;
+  }
+  .customer-select-field-grp{
+    flex-wrap: wrap;
+  }
+  .step-indicator-main{
+    flex-direction: column;
+  }
+  .step-indicator {
+    flex-direction: row;
+    align-items:start;
+    padding: 0px 0;
+  }
+  .Steps-Label-Head{
+    padding: 0px 0;
+  }
+  .step-indicator-1{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0 ;
+  } 
+  .step-number{
+    flex-direction: row;
+  }
+  .step{
+    display: flex;
+    flex-direction: row;
+  }
+  .step-line{
+    height: 2px;
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .step-line{
+    height: 2px;
+    width: 70px;
+  }
+  .gold-detail-footer-lables,.gold-values{
+    font-size: var(--smfont);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .step-number{
+    width: 30px;
+    height: 30px;
+  }
+  .gold-detail-footer,.loan-tenure-gold-details{
+    flex-wrap: wrap;
+  }
+  .gold-select{
+    flex-wrap: wrap;
+  }
+  .step-line{
+    height: 2px;
+    width: 60px;
+  }
+  .gold-details-main{
+    margin: 5px;
+  }
+  .gold-document-head{
+    flex-wrap: wrap;
+  }
+  .gold-details-card-items-1{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+  }
+  .gold-details-card-items-2{
+    width: 100%;
+    height: 100%;
+  }
+  .Steps-Left{
+    flex-wrap: wrap;
+  }
+  .steps{
+    font-size: var(--smfont);
+  }
+  .step-head-label{
+    font-size: var(--m)font;
+  }
+}

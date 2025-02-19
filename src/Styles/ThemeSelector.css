@@ -1,0 +1,198 @@
+.Tenentcontent{
+    width: 83%;
+    height: 100dvh;
+    overflow-y: scroll;
+}
+.Tenent-Customize{
+    width: 100%;
+}
+.MasterSetupPageTabBox{
+    background-color: var(--primary-color);
+    height: 60px;
+    width:auto;
+    margin: 20px 0;
+    display: flex;
+    overflow-x: scroll;
+}
+.MasterSetupPageHeadLabel{
+    font-size: var(--headfont);
+    padding: 20px 20px 0 10px;
+    font-weight: 700;
+    margin:0px 10px;
+}
+
+
+.MasterSetupPageTabBtns{
+    padding: 5px 10px;
+    margin: 5px 30px;
+    font-size: var(--noramlfont);
+    font-weight: 500;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    text-wrap: nowrap;
+    opacity: 0.7;
+}
+.Active{
+    font-size: var(--noramlfont);
+    transition: 0.3s;
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 10px;
+    font-weight: 600;
+    text-wrap: nowrap;
+    opacity: 1;
+}
+.MasterSetupPageContent{
+    width: 80%;
+    height: auto;
+    margin:30px auto;
+}
+
+
+
+.MSContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px 0;
+    border-radius: 20px;
+}
+.MSContainerChild{
+    width: 47%;
+    height: 200px;
+    min-width: 300px;
+    background-color: white;
+    margin:  10px auto;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.MSContainerChild1{
+    width: 47%;
+    height: 200px;
+    min-width: 300px;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    overflow-y: scroll;
+}
+.MSContainerChild1{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.MSCHead{
+    font-size: var(--subheadfont);
+    color: var(--primary-color);
+    padding: 10px;
+    margin: 0;
+    font-weight: 500;
+}
+.MSForm{
+    padding:0 10px;
+    width: 95%;
+}
+.MSFormInputs{
+    width: 100%;
+}
+.MSFormInput1{
+    width: 40%;
+    min-width: 150px;
+    height: 30px;
+    margin:5px 5px 5px 0;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    background-color:var(--tertiary-color) ;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 14px;
+    color: var(--primary-color);
+    padding: 2px 8px;
+}
+.MSFormSubmitBtn{
+    border:2px solid white;
+    background-color: rgb(0, 200, 0);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    padding:0 20px;
+    font-size: var(--noramlfont);
+    font-weight: 500;
+    color: white;
+    width: auto;
+    margin: 20px 0;
+    height: 40px;
+}
+.MSCTiles{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 5px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--tertiary-color);
+    text-align: start;
+}
+.MSCTLabels{
+    font-size: var(--noramlfont);
+    color: var(--primary-color);
+    font-weight: 500;
+    width: 30%;
+}
+
+.MSCTHeads{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 5px;
+    height: 30px;
+    border-radius: 15px 15px 5px 5px;
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 5px;
+}
+.MSCTHLabels{
+    font-size: var(--noramlfont);
+    color: white;
+    width: 30%;
+}
+.MSCTBtns{
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--primary-color);
+}
+
+.Colors-picker{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.colorbox{
+    margin: 20px 0;
+}
+
+.fonts{
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.fonts:hover{
+    background-color: var(--tertiary-color);
+}
+
+@media only screen and (max-width: 1300px) {
+    .Tenentcontent{
+        width: 100%;
+    }
+}

@@ -1,0 +1,83 @@
+.gold-document-upload-main{
+    width: 100%;
+}
+.gold-document-upload-section,.gold-document-head{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+}
+.gold-document-upload-labels{
+    margin: 5px 0;
+    font-size: var(--mfont);
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
+.gold-document-upload-button{
+    background-color: var(--white);
+    color: var(--primary-color);
+    font-size: var(--mfont);
+    font-weight: 600;
+    padding: 5px;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    width: 70px;
+}
+.bi-file-earmark-arrow-up{
+    font-size: var(--xlfont);
+}
+
+.DocDetailsRightSide{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--tertiary-color);
+  width: 25%;
+}
+
+.upload-doc-label{
+  color: var(--secondary-color);
+  font-size: var(--lgfont);
+  font-weight: 600;
+}
+
+.no-doc-label{
+  text-align: center;
+  font-size: var(--mfont);
+  color: black;
+  opacity: 0.5;
+}
+
+.uploaded-files-list {
+    width: 85%;
+    margin: 10px;
+}
+  
+  .uploaded-file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    font-size: var(--mfont);
+    color: var(--primary-color);
+    width: 100%;
+  }
+  
+  .remove-file-button {
+    background-color: var(--lfailed);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 0 5px;
+    padding: 2px 8px;
+    cursor: pointer;
+  }
+  
+  .remove-file-button:hover {
+    background-color: var(--failed);
+  }
+  

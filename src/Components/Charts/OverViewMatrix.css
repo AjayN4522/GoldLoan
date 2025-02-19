@@ -1,0 +1,39 @@
+@media screen and (max-width:361px) {
+    .matrix{
+        height: 70vh !important;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .matrix{
+        height: 40vh !important;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .matrix{
+        height: 30vh !important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .matrix{
+        height: 55vh !important;
+    }
+}
+
+@media screen and (max-width:821px) {
+    .matrix{
+        height: 30vh !important;
+    }
+}
+
+
+
+.matrix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

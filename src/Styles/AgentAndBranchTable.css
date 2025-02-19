@@ -1,0 +1,19 @@
+.tableMainHeading{
+    font-size: var(--xlfont);
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+
+  .tb1{
+    height: 50vh;
+    overflow-y: scroll;
+  }
+
+  .tb2{
+    height: 50vh;
+    overflow-y: scroll;
+  }
+
+    
+
+  

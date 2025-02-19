@@ -1,0 +1,345 @@
+
+.LoanDetailsPage{
+    display: flex;
+    height: 100vh;
+}
+.divider{
+    background-color: var(--lwhite);
+    width: 99.9%;
+    height: 1px;
+    border: 1px solid var(--lwhite);
+}
+.Loan-Content{
+    width: 83%;
+}
+.LoanDetailsMain{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.LoanDetails-Left{
+    border: 1px solid var(--lwhite);
+    border-radius: 20px;
+    width: 70%;
+    height: auto;
+    margin: 10px 0;
+}
+.LoanDetailsRight{
+    width: 25%;
+    height: auto;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    margin: 10px;
+}
+.LoanDetails-Left-Header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Loan-SearchMain{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.Loan-SearchBox{
+    width: 200px;
+    height: 40px;
+    border: 2px solid var(--lwhite);
+    padding: 0 6px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.1);
+    outline: none;
+    font-size: var(--mfont);
+    font-weight: 500;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+}
+.Loan-SearchIcon{
+    width: 40px;
+    height: 42px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 15px;
+    margin: 0 5px;
+}
+.Add-Loan-Btn{
+    height: 40px;
+    width: auto;
+    padding: 3px 10px;
+    background-color: var(--primary-color);
+    border-radius: 10px;   
+    font-size: var(--mfont);
+    font-weight: 600;
+    border: none;
+    color: var(--white);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.Add-Loan-Btn:hover{
+    background-color: var(--white);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    transform: translateY(-3px);
+}
+.bi-search{
+    font-size: 15px;
+    color: var(--white);
+}
+.bi-plus{
+    font-size: 25px;
+    padding-left:10px;
+}
+.LoanDetails-Group{
+    margin:0 10px;
+    height: 85%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: var(--tertiary-color);
+    border: none;
+    border-radius: 10px;
+}
+.Loan-List{
+    display: flex;
+    width: 100%;
+    background-color: var(--white);
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 8px 15px rgba(0, 0,0, 0.1);
+    margin: 3px;
+}
+.Loan-List:hover{
+    transform: translateY(-2px);
+    border: 2px solid var(--tertiary-color);
+}
+.List-Id,.List-name{
+    width: 10%;
+    padding: 0 10px;
+}
+.List-name{
+    font-size: var(--mfont);
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+.List-approveddate,.List-pending{
+    font-size: var(--mfont);
+    color: var(--primary-color);
+    font-weight: 500;
+    margin: 0 20px;
+}
+.List-pending{
+    width: 20%;
+    text-align: start;
+}
+.Loan-List-PayIcon{
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    color: var(--white);
+    margin: 0 5px;
+}
+.Loan-List-CloseIcon{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    color: var(--white);
+    margin: 0 5px;
+}
+.Loan-List-CloseBtns{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 80px;
+
+}
+.LoanDetailsRight-Group{
+    height: auto;
+}
+.LoanDetailsRight-Header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.Loan-Name-Label{
+    font-size: var(-lgfont);
+    font-weight: 700;
+    margin: 0;
+}
+.LoanDetailsRight-Info{
+    margin: 30px 10px;
+}
+.Loan-Info-Label{
+    font-size: var(--mfont);
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 10px;
+}
+.Details-Group{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.Details-Label{
+    font-size: var(--mfont);
+    margin: 0;
+    font-weight: 500;
+    color: black;
+    opacity: 0.5;
+}
+.Details-Info{
+    font-size: var(--mfont);
+    margin: 0;
+    font-weight: 600;
+    color: black;
+}
+.LoanDetailsRight-Footer{
+    padding: 10px;
+}
+.Loan-Pay{
+    padding: 10px 20px;
+    background-color: var(--lwarning);
+    border: 2px solid var(--warning);
+    border-radius: 8px;
+    color: var(--warning);
+    font-size: var(--mfont);
+    font-weight: 600;
+    border-radius: 20px;
+    width: 40%;
+}
+.Loan-Close{
+    padding: 10px 20px;
+    background-color: var(--lfailed);
+    border: 2px solid var(--failed);
+    border-radius: 8px;
+    color: var(--failed);
+    font-size: var(--mfont);
+    font-weight: 600;
+    border-radius: 20px;
+    width: 40%;
+}
+.LoanPaymentFormDiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment-inputs{
+    width: 45%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+    margin: 5px 0;
+    background-color: var(--tertiary-color);
+    outline: none;
+}
+.LoanPaymentLabel,.PaymentHistoryLabel{
+    font-weight: 600;
+    margin: 0;
+}
+.Loan-List-CloseIcon{
+    outline: none;
+}
+.LoanPaymentPayBtn{
+    padding: 5px 15px;
+    background-color: var(--success);
+    border: 2px solid var(--success);
+    border-radius: 8px;
+    color: var(--white);
+    font-size: var(--mfont);
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 5px 40%
+}
+.NullLoans{
+    text-align: center;
+    font-size: var(-lgfont);
+    font-weight: 600;
+}
+.ELink{
+    color: var(--warning);
+}
+.DLink{
+    color: var(--failed);
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .Loan-Content{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .List-name{
+        display: none;
+    }
+    .LoanDetails-Left{
+        width: 65%;
+    }
+    .LoanDetailsRight{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .List-approveddate{
+        display: none;
+    }
+    .LoanDetails-Left{
+        width: 60%;
+    }
+    .LoanDetailsRight{
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .LoanDetailsMain{
+        flex-wrap: wrap;
+    }
+    .LoanDetails-Left{
+        width: 100%;
+        height: 300px;
+    }
+    .LoanDetailsRight{
+        width: 100%;
+    }
+    .LoanDetails-Group{
+        margin:0 5px;
+        height: 75%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .List-Id,.List-name,.List-approveddate,.List-pending{
+        font-size: var(--smfont);
+        width: 20%;
+    }
+    .Loan-List-PayIcon,.closure-list{
+        font-size: var(--smfont);
+    }
+    .Loan-List-PayIcon{
+        display: none;
+    }
+}
